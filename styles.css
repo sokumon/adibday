@@ -47,7 +47,7 @@ h2 {
 }
 
 video {
-    width: 100%;
+    width: 100%; /* Responsive width */
     max-width: 720px; /* Set maximum width to 720px */
     height: auto; /* Maintain aspect ratio */
     border-radius: 15px;
@@ -82,12 +82,4 @@ footer p {
     video {
         border-radius: 10px;
     }
-}
-
-
-video {
-    width: 500px; /* Set width to 500px */
-    height: 425px; /* Set height to 300px */
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
