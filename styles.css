@@ -84,6 +84,10 @@ footer p {
         box-shadow: 0 0 3vw rgba(0, 0, 0, 0.2); /* Adjusted box shadow for smaller screens */
     }
 
+    footer {
+        padding: 2% 0; /* Adjusted padding for smaller screens */
+    }
+
     footer p {
         font-size: 2vw; /* Adjusted font size for smaller screens */
     }
