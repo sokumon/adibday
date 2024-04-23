@@ -43,7 +43,7 @@ section {
 }
 
 h2 {
-    font-size: 2vw; /* Adjusted font size using viewport width */
+    font-size: 8vw !important; /* Adjusted font size using viewport width */
     margin-bottom: 2%; /* Adjusted margin using percentage */
     color: #333;
 }
