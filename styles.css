@@ -11,9 +11,9 @@ body {
     background-color: #f8f8f8;
     color: #333;
     background-image: url('bdayimage2.jpg'); /* Replace 'bdayimage.jpg' with the path to your background image */
-    background-size: cover; /* Cover the entire viewport */
-    background-repeat: repeat; /* Prevent background image from repeating */
-    background-position: center; /* Center the background image */
+    /*background-size: cover;  Cover the entire viewport */
+    /*background-repeat: repeat;  Prevent background image from repeating */
+    /*background-position: center;  Center the background image */
     image-rendering: pixelated; /* Prevent the background image from being blurry */
 }
 
@@ -38,6 +38,8 @@ main {
 
 section {
     margin-bottom: 5%; /* Adjusted margin using percentage */
+    margin-top: 150px;
+
 }
 
 h2 {
