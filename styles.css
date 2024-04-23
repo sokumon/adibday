@@ -21,37 +21,37 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 2% 0; /* Adjusted padding using percentage */
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.5em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 3vw; /* Adjusted font size using viewport width */
+    text-shadow: 0.5vw 0.5vw 1vw rgba(0, 0, 0, 0.5); /* Adjusted text shadow using viewport width */
 }
 
 /* Main content styles */
 main {
-    padding: 20px;
+    padding: 2%; /* Adjusted padding using percentage */
     text-align: center;
 }
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 5%; /* Adjusted margin using percentage */
 }
 
 h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 2vw; /* Adjusted font size using viewport width */
+    margin-bottom: 2%; /* Adjusted margin using percentage */
     color: #333;
 }
 
 video {
-    width: 100%; /* Responsive width */
-    max-width: 720px; /* Set maximum width to 720px */
+    width: 90%; /* Adjusted width using percentage */
+    max-width: 100%; /* Ensure maximum width is 100% */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 2vw; /* Adjusted border radius using viewport width */
+    box-shadow: 0 0 2vw rgba(0, 0, 0, 0.2); /* Adjusted box shadow using viewport width */
 }
 
 /* Footer styles */
@@ -59,27 +59,32 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 1% 0; /* Adjusted padding using percentage */
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
 footer p {
-    font-size: 1.2em;
+    font-size: 1vw; /* Adjusted font size using viewport width */
 }
 
 /* Responsive styles */
 @media only screen and (max-width: 600px) {
     header h1 {
-        font-size: 2em;
+        font-size: 4vw; /* Adjusted font size for smaller screens */
     }
 
     h2 {
-        font-size: 1.5em;
+        font-size: 3vw; /* Adjusted font size for smaller screens */
     }
 
     video {
-        border-radius: 10px;
+        border-radius: 3vw; /* Adjusted border radius for smaller screens */
+        box-shadow: 0 0 3vw rgba(0, 0, 0, 0.2); /* Adjusted box shadow for smaller screens */
+    }
+
+    footer p {
+        font-size: 2vw; /* Adjusted font size for smaller screens */
     }
 }
